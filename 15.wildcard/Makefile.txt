@@ -1,0 +1,11 @@
+# 演示Makefile中的通配符
+#all : 1.c 1.h 2.c 12.c test.c
+#	echo *.c
+#	echo ?.c
+#	echo [12].c
+
+# 演示Makfile中的自动变量
+all : 1.c 1.h 2.c 12.c test.c
+	echo $@
+	echo $^
+	echo $<

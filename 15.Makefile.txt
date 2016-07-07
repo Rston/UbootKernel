@@ -1,0 +1,39 @@
+# 15.makefile补充学习
+
+# 伪目标演示和静默执行
+#all:
+#	echo "this is a test!"
+#	@echo "hello world!"
+
+# 验证?=变量赋值运算符
+#var = 
+#var ?= "efgh"
+
+#all:
+#	echo $(var)
+
+# 验证+=变量赋值运算符
+#var = "abcd"
+#var += "efgh"
+
+#all:
+#	echo $(var)
+
+# 演示=和:=的区别
+#A=abc
+#B:=$(A)def
+#A=gh
+
+#all:
+#	echo $(B)
+
+# 演示makefile传参
+CC=gcc
+
+all:
+	echo $(CC)
+
+
+
+
+
